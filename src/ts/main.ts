@@ -6,5 +6,5 @@ RAPIER.init().then(init)
 function init() {
 	const world = new World()
 	// world.setWorld()
-	world.setWorld('../../models/world.glb')
+	world.setWorld('./models/world.glb')
 }
